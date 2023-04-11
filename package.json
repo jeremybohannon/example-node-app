@@ -2,5 +2,11 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.18.2"
+  },
+  "scripts": {
+    "start-be": "node ./backend/index.js",
+    "start-be:dev": "nodemon ./backend/index.js",
+    "start-fe": "npx http-server ./frontend/.",
+    "start-fe:dev": "npx live-server ./frontend/."
   }
 }
